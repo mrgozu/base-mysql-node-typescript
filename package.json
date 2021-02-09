@@ -1,0 +1,21 @@
+{
+    "name": "node-type-mysql",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cphtml": "copyfiles --up 1 ./src/public/*.html ./dist",
+        "build": "tsc && npm run cphtml"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "copyfiles": "^2.4.1",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.11"
+    }
+}
